@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Writings", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a JS Social App (Threads)",
+    description: "Inside The Hub",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,68 +72,56 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Threads - A social app",
+    des: "Threads is a full-stack social app to posts yours best writings and follow your friends !",
+    img: "/threads-mockup.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://threadsblog.netlify.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Kerdos - A colloborative docs app",
+    des: "Create your documents with realtime colloborative features.",
+    img: "/thekerdosdocs-mockup.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://kerdoslivedocs.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "College Website",
+    des: "A live website I made for my college, all details included with sleek design.",
+    img: "/collegewebsite-mockup.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://loyolahighschoolpune.com/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Brainwave - An AI saas website",
+    des: "A modern UX design showcasing the premium ai saas features",
+    img: "/brainwave-mockup.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://brainwave-livid-three.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Having too many options can quietly undermine your potential by creating decision paralysis and distraction. When overwhelmed with choices, we often hesitate, fearing we'll miss out on something better, which dilutes our focus and limits progress. By committing to fewer paths, we invest more time, effort, and attention, leading to deeper skill development and greater satisfaction. This 'less is more' approach forces us to prioritize quality over quantity, allowing us to excel in areas that truly matter. Embracing fewer choices means saying no to distractions, staying focused on clear goals, and giving ourselves a real chance to grow.",
+    name: "Arin Gawande",
+    title: "Less is more",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "“Networking, Not Pitching”: true networking is about building authentic connections, not pushing a sales pitch. When you focus on getting to know people, understanding their goals, and sharing genuine interests, you create trust and rapport that outlasts any quick pitch. Unlike a pitch, which often feels forced and self-serving, networking allows for mutual growth and exchange. People remember authentic interactions and are more likely to support someone they know and respect. So, approach networking with curiosity and openness, and let the relationship develop naturally—it’s the long game that brings lasting connections and unexpected opportunities.",
+    name: "Arin Gawande",
+    title: "Networking ! Not Pitching",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Effective communication is about clarity, listening, and empathy. Start by organizing your thoughts and being concise—get to the point without overwhelming details. Practice active listening by focusing fully on the speaker and responding thoughtfully. Use open body language and maintain eye contact to show engagement. Empathy is key: understand the other person's perspective, and tailor your message to address their needs or concerns. Avoid jargon or complicated terms, and ask questions to confirm understanding. Effective communication isn’t just about speaking well; it’s about making others feel heard, respected, and open to the message you’re sharing.",
+    name: "Arin Gawande",
+    title: "Better Communication",
   },
 ];
 
@@ -173,29 +161,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Web Intern",
+    desc: "Assisted in the development of a website React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web-Dev Freelancer",
+    desc: "Developing websites for clients that actually work.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Building an agency",
+    desc: "Growing my AI Automations agency, helping businesses automate workflows.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Content Writer",
+    desc: "I write about my learnings, productivity tips and start-up case-studies on Linkedin.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +193,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Arin7712"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://www.instagram.com/arin.gawande/"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/arin-gawande-134182316/"
   },
 ];
