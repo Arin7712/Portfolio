@@ -110,6 +110,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://brainwave-livid-three.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Money Rains Forever - A sleek landing page for a traing agency",
+    des: "A modern UX design attracting potential investors and students.",
+    img: "/moneymock.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://moneyrainsforever.netlify.app/",
+  },
 ];
 
 export const testimonials = [
