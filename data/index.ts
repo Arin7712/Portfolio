@@ -111,7 +111,16 @@ export const projects = [
     link: "https://brainwave-livid-three.vercel.app/",
   },
   {
-    id: 6,
+    id:6,
+    title : "Grow With Mo - SMMA",
+    des: "A London based marketing agency focused on Facebook ADS",
+    img: "/growwithmo.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://growwith-mo.com/"
+
+  },
+  {
+    id: 7,
     title: "Money Rains Forever - A sleek landing page for a traing agency",
     des: "A modern UX design attracting potential investors and students.",
     img: "/moneymock.png",
